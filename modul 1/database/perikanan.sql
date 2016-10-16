@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 17, 2016 at 01:25 AM
+-- Generation Time: Oct 17, 2016 at 01:42 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -43,7 +43,7 @@ CREATE TABLE `tb_induk` (
 CREATE TABLE `tb_kategori_keasaman` (
   `id_kategori_keasaman` int(11) NOT NULL,
   `ukuran_keasaman` varchar(10) NOT NULL,
-  `keterangan` int(11) NOT NULL
+  `keterangan` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
