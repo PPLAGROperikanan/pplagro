@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 17, 2016 at 01:10 AM
+-- Generation Time: Oct 17, 2016 at 01:25 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -99,7 +99,8 @@ CREATE TABLE `tb_kolam` (
   `nama_kolam` varchar(10) NOT NULL,
   `panjang kolam` double NOT NULL,
   `lebar kolam` double NOT NULL,
-  `tinggi_kolam` double NOT NULL
+  `tinggi_kolam` double NOT NULL,
+  `daya_tampung_maksimal` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
